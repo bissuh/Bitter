@@ -1,0 +1,51 @@
+/* Bitter StyleSheet */
+
+* { margin: 0; padding: 0; offset: 0;}
+
+#mainwrapper {
+	width: 100%;
+	padding: 20px 0;
+}
+
+#maincontent {
+	width: 600px;
+}
+
+#todolist {
+	padding: 10px 0;
+}
+
+#task_description {
+	padding: 10px;
+	width: 525px;
+	margin-top: 1px;
+}
+
+#btnNewTask {
+	margin: 0px;
+	width: 70px;
+	height: 42px;
+	float: right;
+}
+
+.taskcontroller {
+	float: right;
+	width: 40px;
+	height: 30px;
+}
+
+.oneListTask {
+	width: 580px;
+	background-color: #dddddd;
+	padding: 10px;
+	min-height: 30px;
+}
+
+.oneListDoneTask {
+	width: 580px;
+	background-color: #eeeeee;
+	padding: 10px;
+	font-size: 10pt;
+	color: #cccccc;
+	min-height: 30px;
+}
